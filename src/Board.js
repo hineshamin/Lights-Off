@@ -42,7 +42,7 @@ class Board extends Component {
       board: this.createBoard(),
       hasWon: false
     };
-    this.winGame();
+    //this.winGame();
   }
 
   /** create a board nrows high/ncols wide, each cell randomly lit or unlit */
